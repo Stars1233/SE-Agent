@@ -278,15 +278,17 @@ We would like to thank the following projects and contributors:
 
 ## 📞 Contact & Support
 
-- **📧 Email**: [wanghuacan17@mails.ucas.ac.cn](mailto:wanghuacan17@mails.ucas.ac.cn)
+- **📧 Email**: [quantaalpha.ai@gmail.com](mailto:quantaalpha.ai@gmail.com)
 - **🐛 Issues**: [GitHub Issues](https://github.com/JARVIS-Xs/SE-Agent/issues)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/JARVIS-Xs/SE-Agent/discussions)
+- **🤖 QuantaAlpha**: QuantaAlpha is an elite research team dedicated to advancing AI Agent technology, committed to pushing the frontiers of artificial intelligence.
+- **🏠 HomePage**:[https://quantaalpha.github.io](https://quantaalpha.github.io)
 ---
 
 <div align="center">
 
 **⭐ If SE-Agent helps your research or projects, please give us a star! ⭐**
 
-*Made with ❤️ by the SE-Agent Research Team*
+*Made with ❤️ by the  QuantaAlpha Team Research Team*
 
 </div>
