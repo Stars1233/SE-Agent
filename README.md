@@ -11,7 +11,7 @@
 
 <p align="center">
   <strong>🏆 State-of-the-Art Performance on SWE-bench Verified: 80%</strong><br>
-  <strong>🚀 Up to +112% Performance Gain</strong><br>
+  <strong>🤖 QuantaAlpha Homepage:[https://quantaalpha.github.io](https://quantaalpha.github.io)</strong><br>
 </p>
 
 <p align="center">
