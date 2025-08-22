@@ -354,30 +354,15 @@ class RunBatch:
         
         # 如果提供了实例模板目录，添加SystemTemplateHook
         if self._instance_templates_dir is not None:
-            # 动态导入SystemTemplateHook，避免循环导入问题
-            import sys
-            import importlib.util
-            
-            # 获取当前文件所在目录
-            current_dir = Path(__file__).resolve().parent.parent.parent
-            hook_path = current_dir / "Atlas" / "hooks" / "system_template_hook.py"
-            
-            if hook_path.exists():
-                try:
-                    spec = importlib.util.spec_from_file_location("system_template_hook", hook_path)
-                    if spec and spec.loader:
-                        module = importlib.util.module_from_spec(spec)
-                        sys.modules["system_template_hook"] = module
-                        spec.loader.exec_module(module)
-                        
-                        # 创建并添加Hook
-                        hook = module.SystemTemplateHook(instance.problem_statement.id, self._instance_templates_dir)
-                        agent.add_hook(hook)
-                        self.logger.info(f"已为实例 {instance.problem_statement.id} 添加SystemTemplateHook")
-                except Exception as e:
-                    self.logger.error(f"添加SystemTemplateHook时出错: {e}")
-            else:
-                self.logger.warning(f"找不到SystemTemplateHook文件: {hook_path}")
+            try:
+                from sweagent.agent.hooks.system_template_hook import SystemTemplateHook
+                hook = SystemTemplateHook(instance.problem_statement.id, self._instance_templates_dir)
+                agent.add_hook(hook)
+                self.logger.info(f"已为实例 {instance.problem_statement.id} 添加SystemTemplateHook")
+            except ImportError as e:
+                self.logger.warning(f"SystemTemplateHook不可用: {e}")
+            except Exception as e:
+                self.logger.error(f"添加SystemTemplateHook时出错: {e}")
         
         self._progress_manager.update_instance_status(instance.problem_statement.id, "Starting environment")
         instance.env.name = f"{instance.problem_statement.id}"

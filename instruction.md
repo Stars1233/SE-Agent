@@ -21,12 +21,12 @@ sweagent --help
 
 Basic run command:
 ```bash
-python SE/basic_run.py --config /home/uaih3k9x/630_swe/SE/configs/se_configs/dpsk29.yaml
+python SE/basic_run.py --config <Your Path>
 ```
 
 Run command using crossover operator:
 ```bash
-python SE/basic_run.py --config /home/uaih3k9x/SE-Agent/SE/configs/se_configs/crossover_test.yaml
+python SE/basic_run.py --config SE/configs/se_configs/crossover_test.yaml
 ```
 
 ### Command Parameter Description

@@ -171,7 +171,7 @@ def call_swe_iterator(iteration_params, logger, dry_run=False):
         
         # 动态确定SE框架根目录和项目根目录
         se_root = Path(__file__).parent  # SE目录
-        project_root = se_root.parent    # 630_swe目录
+        project_root = se_root.parent    
         swe_iterator_path = se_root / "core" / "swe_iterator.py"
         
         print(f"🚀 执行命令: python {swe_iterator_path} {temp_config_path}")
@@ -215,7 +215,7 @@ def main():
     
     # 解析命令行参数
     parser = argparse.ArgumentParser(description='SE框架多迭代执行脚本')
-    parser.add_argument('--config', default="SE/configs/se_configs/test_deepseek_se.yaml", 
+    parser.add_argument('--config', default="SE/configs/se_configs/dpsk.yaml", 
                        help='SE配置文件路径')
     parser.add_argument('--mode', choices=['demo', 'execute'], default='execute',
                        help='运行模式: demo=演示模式, execute=直接执行')

@@ -19,7 +19,7 @@ python SE/basic_run.py --config SE/configs/se_configs/test_deepseek_se.yaml --mo
 
 ### Runtime Requirements
 
-- **Working Directory**: Must be executed in the project root directory `/home/uaih3k9x/630_swe`
+- **Working Directory**: Must be executed in the project root directory
 - **API Configuration**: Valid API key must be set in configuration file
 - **Dependencies**: SWE-agent and related dependencies must be installed
 
