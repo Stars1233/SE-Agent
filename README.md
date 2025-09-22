@@ -22,6 +22,7 @@
 
 ## 📰 News
 
+- **2025.09.19** 🎉 Excited to announce that our papers have been accepted to <u>**NeurIPS 2025**</u> — [**RepoMaster**](https://arxiv.org/abs/2505.21577) as a ***Spotlight*** (≈3.2%) and [**SE-Agent**](https://arxiv.org/abs/2508.02085) as a ***Poster*** (≈24.52%)!
 - **2025.08.28** 🎉 We open-sourced [**RepoMaster**](https://github.com/QuantaAlpha/RepoMaster) — an AI agent that leverages GitHub repos to solve complex real-world tasks.
 - **2025.08.26** 🎉 We open-sourced [**GitTaskBench**](https://github.com/QuantaAlpha/GitTaskBench) — a repo-level benchmark & tooling suite for real-world tasks.
 - **2025.08.10** 🎉 We open-sourced [**SE-Agent**](https://github.com/JARVIS-Xs/SE-Agent) — a self-evolution trajectory framework for multi-step reasoning.
@@ -291,6 +292,11 @@ We would like to thank the following projects and contributors:
 - **💬 Discussions**: [GitHub Discussions](https://github.com/JARVIS-Xs/SE-Agent/discussions)
 - **🤖 QuantaAlpha**: QuantaAlpha is an elite research team dedicated to advancing AI Agent technology, committed to pushing the frontiers of artificial intelligence.
 - **🏠 HomePage**:[https://quantaalpha.github.io](https://quantaalpha.github.io)
+
+## ⭐ Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=JARVIS-Xs/SE-Agent&type=Date)](https://star-history.com/#JARVIS-Xs/SE-Agent&Date)
+
+
 ---
 
 <div align="center">
